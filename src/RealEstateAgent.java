@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 public class RealEstateAgent {
     ArrayList<RealEstate> RealEstates;
