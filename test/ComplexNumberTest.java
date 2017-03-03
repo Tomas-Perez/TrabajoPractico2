@@ -39,7 +39,7 @@ public class ComplexNumberTest {
     @Test
     public void absoluteValue() throws Exception {
         ComplexNumber complex = new ComplexNumber(-3,-4);
-        assertTrue(complex.absoluteValue().equals(new ComplexNumber(3,4)));
+        assertTrue(complex.absoluteValue() == 5);
     }
 
 }

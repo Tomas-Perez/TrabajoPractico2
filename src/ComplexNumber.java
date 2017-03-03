@@ -26,8 +26,8 @@ public class ComplexNumber {
         return new ComplexNumber(real - complex.getReal(), imaginary - complex.getImaginary());
     }
 
-    public ComplexNumber absoluteValue(){
-        return new ComplexNumber(Math.abs(real),Math.abs(imaginary));
+    public double absoluteValue(){
+        return Math.sqrt(Math.pow(real,2)+Math.pow(imaginary,2));
     }
 
     public boolean equals(ComplexNumber complex){
